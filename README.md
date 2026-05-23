@@ -13,60 +13,60 @@ from a professional Data Analytics programme.
 
 ## 🗂 Projects
 
-### 🤖 Machine Learning: Price Prediction
-**Tools:** Python · Pandas · Scikit-learn · Matplotlib  
-**File:** [`python/Mini project ML.ipynb`](./python/Mini%20project%20ML.ipynb)
+### 📊 Power BI: DATA_SFERA Business Dashboard
+**Tools:** Power BI · DAX · Data Modelling  
+**Files:** [`Power-BI/DATA_SFERA.pbix`](./Power-BI/DATA_SFERA.pbix) · [`Power-BI/Visualization_project.pbix`](./Power-BI/Visualization_project.pbix)
 
-Built a **Random Forest Regressor** to predict item prices from 4 features (10,000+ rows).  
-- EDA: correlation heatmap, outlier detection, missing value handling  
-- Model: 80/20 train-test split, R² = 0.65, MAE = 98.6  
-- Visualised feature importance and actual vs predicted scatter plot  
+Built interactive multi-page reports with drill-through navigation and dynamic KPIs.
+- KPI scorecards, trend charts and performance tables
+- Modelled relationships across multiple data sources
+- Applied DAX measures for dynamic calculations
+
+![DATA_SFERA Dashboard](./Power-BI/DATA_SFERA_dashboard.png)
 
 ---
 
-### 🐍 Python: Coffee Sales EDA
-**Tools:** Python · Pandas · Matplotlib · Seaborn  
-**File:** [`python/Mini project 1.ipynb`](./python/Mini%20project%201.ipynb)
+### 🤖 Machine Learning: Price Prediction Model
+**Tools:** Python · Pandas · Scikit-learn · Matplotlib  
+**File:** [`Python/Mini project ML.ipynb`](./Python/Mini%20project%20ML.ipynb)
 
-Exploratory analysis of 366 days of coffee shop sales data.  
-- Identified that Espresso accounts for 41% of total sales  
-- Found weather has minimal impact on daily volume (<8% variance)  
-- Built OOP solution with a `Users` class for data processing  
+Built a **Random Forest Regressor** to predict item prices from 4 features (10,000+ rows).
+- EDA: correlation heatmap, outlier detection, missing value handling
+- Model: 80/20 train-test split, R² = 0.65, MAE = 98.6
+- Visualised feature importance and actual vs predicted scatter plot
+
+---
+
+### 🐍 Python: Data Analysis & OOP
+**Tools:** Python · Pandas · Matplotlib · Seaborn  
+**File:** [`Python/Mini project 1.ipynb`](./Python/Mini%20project%201.ipynb)
+
+Exploratory data analysis with object-oriented Python.
+- Built a `Users` class with age calculation and filtering methods
+- Analysed coffee shop sales: identified top product, weather impact, weekly patterns
+- Produced charts with Matplotlib and Seaborn
 
 ---
 
 ### 🗄 SQL: Advertising Analytics
 **Tools:** MySQL · CTEs · Window Functions · HAVING  
-**File:** [`sql/advertising_analytics.sql`](./sql/advertising_analytics.sql)
+**File:** [`SQL/mini project 2.sql`](./SQL/mini%20project%202.sql)
 
-Queried a user ad-view behaviour database with advanced SQL.  
-- Counted unique users in date ranges, identified top viewers  
-- Filtered days with >500 unique users using `HAVING`  
-- Calculated user Lifetime (`MAX date - MIN date`) per user  
+Queried a user ad-view behaviour database with advanced SQL.
+- Counted unique users in date ranges, identified top viewers
+- Filtered days with >500 unique users using `HAVING`
+- Calculated user Lifetime (`MAX date - MIN date`) per user
 
 ---
 
 ### 🏦 SQL: Banking Cohort Analysis
 **Tools:** PostgreSQL · Date Functions · Aggregations  
-**File:** [`sql/banking_cohort_analysis.sql`](./sql/banking_cohort_analysis.sql)
+**File:** [`SQL/SQL task.sql`](./SQL/SQL%20task.sql)
 
-Analysed customer transactions over a 12-month period (Jun 2015 – Jun 2016).  
-- Identified customers with **uninterrupted monthly activity** for 12 months  
-- Computed average cheque, gender ratios (M/F/NA) with spend share  
-- Segmented customers into 10-year age bands with quarterly breakdowns  
-
----
-
-### 📊 Power BI: Business Dashboards
-**Tools:** Power BI · DAX · Data Modelling  
-**Files:** [`power-bi/`](./power-bi/)
-
-Built interactive multi-page reports with drill-through navigation.  
-- KPI scorecards, funnel charts, agent performance tables  
-- Modelled relationships across multiple data sources  
-- Applied DAX measures for dynamic time-intelligence calculations  
-
-![Dashboard Preview](./Power-BI/DATA_SFERA_dashboard.png)
+Analysed customer transactions over a 12-month period.
+- Identified customers with uninterrupted monthly activity for 12 months
+- Computed average cheque, gender ratios (M/F/NA) with spend share
+- Segmented customers into 10-year age bands with quarterly breakdowns
 
 ---
 
@@ -77,7 +77,7 @@ Built interactive multi-page reports with drill-through navigation.
 | **Languages** | Python 3, SQL |
 | **Python libs** | Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn |
 | **Databases** | MySQL, PostgreSQL |
-| **BI Tools** | Power BI (DAX), Tableau |
+| **BI Tools** | Power BI (DAX, Data Modelling) |
 | **Excel** | Pivot Tables, VBA Macros, VLOOKUP, Dynamic Charts |
 | **Other** | Jupyter Notebook, Git, GitHub |
 
@@ -85,5 +85,5 @@ Built interactive multi-page reports with drill-through navigation.
 
 ## 📬 Contact
 
-- **Email:** slavakhon@gmail.com  
+- **Email:** slavakhon@gmail.com
 - **Available for:** Remote freelance · Data Analyst roles · BI/Reporting positions
