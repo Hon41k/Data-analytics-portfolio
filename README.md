@@ -66,7 +66,7 @@ Built interactive multi-page reports with drill-through navigation.
 - Modelled relationships across multiple data sources  
 - Applied DAX measures for dynamic time-intelligence calculations  
 
-![Dashboard Preview](./power-bi/dashboard_screenshot_1.png)
+![Dashboard Preview](./Power BI/DATA SFERA dashboard.png)
 
 ---
 
